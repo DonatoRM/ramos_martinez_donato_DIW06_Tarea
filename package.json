@@ -1,0 +1,23 @@
+{
+    "name": "ramos_martinez_donato_diw06_tarea",
+    "version": "1.0.0",
+    "description": "<h1>Tarea Unidad 6. Contenido multimedia en la web: Audio y Vídeo</h1>\r <p>La tarea correspondiente a esta unidad consta de dos actividades prácticas a realizar \r utilizando archivos de audio y vídeo destinados a emplear en la web.</p>\r <h2>Actividad 1. Reproductor de Audio</h2>\r <p>En esta tarea se hará uso de la etiqueta de html5 <code>audio</code> para presentar en la \r web unos ficheros de sonido o audio (por ejemplo 3) con controles de \r reproducción, de manera que se presente la fuente de audio en no menos de 3 \r formatos alternativos (incluyendo Ogg y MP3).</p>\r <h2>Actividad 2. Reproductor de Video</h2>\r <p>Crear una nueva página web que contenga un reproductor de vídeo\r personalizado empleando la etiqueta <code>video</code> que cumpla las siguientes \r características:\r </p>\r <ul>\r <li>Reproducir los vídeos independientemente del códec soportado por el \r navegador (que soporte varios formatos, por ejemplo 3)\r </li>\r <li>Incluir controles de reproducción (play), pausa (pause), parar (stop), avanzar y \r retroceder 10 segundos, inicio y fin.</li>\r <li>Control de volumen y paso a pantalla completa</li>\r <li>Un indicador de progreso de la reproducción</li>\r </ul>\r <p>Añadir una lista de reproducción que permita seleccionar un nuevo vídeo, y éste \r se reproduzca sin recargar la página.\r </p>\r <p><em>Para realizar algunas de estas acciones será necesario ejecutar JavaScript</em></p>",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DonatoRM/ramos_martinez_donato_DIW06_Tarea.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DonatoRM/ramos_martinez_donato_DIW06_Tarea/issues"
+    },
+    "homepage": "https://github.com/DonatoRM/ramos_martinez_donato_DIW06_Tarea#readme",
+    "devDependencies": {
+        "sass": "^1.60.0"
+    }
+}

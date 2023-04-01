@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__titulo {
+        text-transform: uppercase;
+        margin: 1rem 0;
+        color: rgb(0, 99, 0);
+    }
+}
+.melodia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    &--dos {
+        color: red;
+    }
+    &--tres {
+        color: blue;
+    }
+    &--uno {
+        color: orange;
+    }
+}
