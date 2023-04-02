@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Actividad 2</title>
+        <link rel="stylesheet" type="text/css" href="./css/estiloActividad2.css" media="all" />
+        <script type="text/javascript" src="./node_modules/@fortawesome/fontawesome-free/js/all.js" defer></script>
+        <script type="text/javascript" src="./js/actividad2.js"></script>
+    </head>
+    <body>
+        <header class="encabezado">
+            <h1 class="encabezado__titulo">Actividad 2</h1>
+        </header>
+        <main>
+            <section class="reproductor">
+                <div class="reproductor__titulo">Reproductor de vídeo</div>
+                <div class="reproductor__video">
+                    <video width="800">
+                        <source class="mp4" type="video/mp4" src="" />
+                        <source class="mov" type="video/mov" src="" />
+                        <source class="flv" type="video/flv" src="" />
+                        <track src="llevamemuylejos.vtt" kind="subtitles" srclang="es" label="Español" />
+                        Su navegador no soporta la etiqueta Video.
+                    </video>
+                </div>
+                <div class="reproductor__controles">
+                    <button class="reproductor__boton" type="button" name="iniciar" id="iniciar" title="Iniciar">
+                        <i class="fa-regular fa-circle-play"></i> Iniciar
+                    </button>
+                    <button class="reproductor__boton" type="button" name="pausa" id="pausa" title="Pausa">
+                        <i class="fa-regular fa-circle-pause"></i> Pausa
+                    </button>
+                    <button class="reproductor__boton" type="button" name="parar" id="parar" title="Parar">
+                        <i class="fa-regular fa-circle-stop"></i> Parar
+                    </button>
+                    <button class="reproductor__boton" type="button" name="avanzar" id="avanzar" title="Avanzar 10s">
+                        <i class="fa-solid fa-forward"></i> Avanzar
+                    </button>
+                    <button
+                        class="reproductor__boton"
+                        type="button"
+                        name="retroceder"
+                        id="retroceder"
+                        title="Retroceder 10s"
+                    >
+                        <i class="fa-solid fa-backward"></i> Retroceder
+                    </button>
+                    <button class="reproductor__boton" type="button" name="inicio" id="inicio" title="Inicio">
+                        <i class="fa-solid fa-backward-step"></i> Inicio
+                    </button>
+                    <button class="reproductor__boton" type="button" name="fin" id="fin" title="Fin">
+                        <i class="fa-solid fa-forward-step"></i> Fin
+                    </button>
+                    <button
+                        class="reproductor__boton"
+                        type="button"
+                        name="pantallaCompleta"
+                        id="pantallaCompleta"
+                        title="Visualizar a Pantalla Completa"
+                    >
+                        <i class="fa-solid fa-maximize"></i>
+                        Pantalla completa
+                    </button>
+                    <input type="range" class="reproductor__volumen" name="volumen" id="volumen" />
+                    <progress class="reproductor__progreso" name="progreso" id="progreso" min="0" max="10" value="0" />
+                </div>
+                <div class="reproductor__seleccion">
+                    <label for="nombre">Seleccione el archivo a reproducir</label>
+                    <input type="file" id="nombre" name="nombre" accept="video/mp4" />
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
